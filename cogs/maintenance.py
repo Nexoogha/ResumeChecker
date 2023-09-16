@@ -7,9 +7,9 @@ version: 9/16/2023
 
 import discord
 from discord.commands import slash_command
-from .base_cog import ResumeCog
+from .base_cog import CCog
 
-class MaintenanceCog(ResumeCog):
+class MaintenanceCog(CCog):
     """
     Contains commands for maintaining and checking the status of the bot.
     """

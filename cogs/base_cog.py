@@ -1,5 +1,5 @@
 """
-Contains the custom ResumeCog Cog subclass.
+Contains the custom CCog Cog subclass.
 
 author: Muhammad Nabil (myn55)
 version: 9/16/2023
@@ -8,7 +8,7 @@ version: 9/16/2023
 import discord
 from colorama import Fore, Style
 
-class ResumeCog(discord.Cog):
+class CCog(discord.Cog):
     """
     Custom Cog subclass for the bot for load success notification.
     """

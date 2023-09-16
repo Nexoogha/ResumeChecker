@@ -7,9 +7,9 @@ version: 9/16/2023
 
 import discord
 from discord.commands import slash_command
-from .base_cog import ResumeCog
+from .base_cog import CCog
 
-class HelpCog(ResumeCog):
+class HelpCog(CCog):
     """
     Contains the bot's dedicated help command.
     """
