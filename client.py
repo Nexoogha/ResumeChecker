@@ -1,5 +1,6 @@
 """
 Main driver code for the Discord bot.
+Profile picture is attributed to Freepik.
 
 author: Muhammad Nabil (myn55)
 version: 9/16/2023
@@ -17,9 +18,6 @@ class ResumeBot(discord.Bot):
 
     async def on_ready(self) -> None:
         print(Fore.GREEN+f"Successfully logged in as {Fore.CYAN+Style.BRIGHT+str(self.user)}"+Style.RESET_ALL)
-
-    async def on_message(self, msg : discord.Message) -> None:
-        print(msg.content)
 
 # Set up intents for our bot in order to have permission to access members and message content
 intents = discord.Intents()
