@@ -2,7 +2,7 @@
 Contains the HelpCog class.
 
 author: Muhammad Nabil (myn55)
-version: 9/16/2023
+version: 09/16/2023
 """
 
 import discord
@@ -52,5 +52,6 @@ class HelpCog(CCog):
                 )
             else:
                 await ctx.respond(content=f"Could not find {arg}", ephemeral=True)
+                return
 
         await ctx.respond(embed=helpEmbed)
