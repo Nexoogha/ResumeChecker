@@ -2,7 +2,7 @@
 Discord bot which reads in the resume pdf of a discord user
 
 author: Omer Ahmed (omerahmed05), Jonathan Woodbury (jonathanw22)
-vesion: 09/16/2023
+version: 09/16/2023
 """
 
 import discord
