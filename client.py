@@ -2,7 +2,7 @@
 Main driver code for the Discord bot.
 Profile picture is attributed to Freepik.
 
-author: Muhammad Nabil (myn55)
+author: Jonathan Woodbury (jonathanw22), Muhammad Nabil (myn55), Omer Ahmed (omerahmed05)
 version: 09/16/2023
 """
 

@@ -145,7 +145,8 @@
       "Chef",
       "Terraform",
       "Prometheus",
-      "Grafana"
+      "Grafana",
+      "MySQL"
     ],
     "Other Skills": [
       "Data Structures",

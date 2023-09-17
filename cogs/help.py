@@ -22,7 +22,7 @@ class HelpCog(CCog):
         """
         Sends an embed containing every caterogry and command registered in the bot.
         """
-        help_embed = discord.Embed(title="Resume Checker Help Menu", color=discord.Color.from_rgb(255, 255, 255))
+        help_embed = discord.Embed(title="Resume Checker Help Menu", color=discord.Color(0xffffff))
 
         command_list = ctx.bot.application_commands
         command_names = [x.name for x in command_list]
