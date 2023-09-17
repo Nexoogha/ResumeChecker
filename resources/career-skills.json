@@ -1,0 +1,152 @@
+{
+    "Computer Science": {
+      "Programming Languages": [
+        "Python",
+        "JavaScript",
+        "Java",
+        "C#",
+        "C++",
+        "HTML",
+        "CSS",
+        "Ruby",
+        "Swift",
+        "Go",
+        "PHP",
+        "TypeScript",
+        "Rust",
+        "Kotlin",
+        "Perl",
+        "Scala",
+        "Haskell",
+        "Lua",
+        "Dart",
+        "Objective-C",
+        "F#",
+        "R",
+        "Clojure",
+        "Groovy",
+        "Elm",
+        "Elixir",
+        "Julia",
+        "VHDL",
+        "COBOL",
+        "Fortran",
+        "Assembly"
+      ],
+      "Frameworks": [
+        "React",
+        "Angular",
+        "Node.js",
+        "Django",
+        "Ruby on Rails",
+        "Spring Boot",
+        "Express.js",
+        "Flask",
+        "Vue.js",
+        "Laravel"
+      ],
+      "Tools": [
+        "Visual Studio Code",
+        "Git",
+        "GitHub",
+        "Sublime Text",
+        "Eclipse",
+        "IntelliJ IDEA",
+        "Docker",
+        "Jenkins",
+        "Postman",
+        "npm"
+      ],
+      "Other Skills": [
+        "Data Structures",
+        "Algorithms",
+        "Database Management",
+        "Web Development",
+        "Software Architecture",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Operating Systems",
+        "Network Security",
+        "Cloud Computing"
+      ]
+    },
+
+    "Computer Engineering": {
+      "Programming Languages": [
+        "Verilog",
+        "VHDL",
+        "C",
+        "Assembly",
+        "SystemVerilog",
+        "MATLAB",
+        "Python",
+        "Embedded C"
+      ],
+      "Tools": [
+        "AutoCAD",
+        "SolidWorks",
+        "ANSYS",
+        "LabVIEW",
+        "Revit",
+        "Creo Parametric",
+        "Fusion 360",
+        "Arduino IDE",
+        "Siemens NX"
+      ],      
+      "Hardware Skills": [
+        "Digital Circuit Design",
+        "Analog Circuit Design",
+        "Microcontroller Programming",
+        "FPGA Design",
+        "Signal Processing",
+        "Embedded Systems",
+        "PCB Design",
+        "PLC Programming",
+        "Electronic Testing",
+        "Control Systems"
+      ]
+    },
+
+    "Electrical Engineering": {
+      "Programming Languages": [
+        "MATLAB",
+        "C",
+        "Python",
+        "Assembly",
+        "LabVIEW",
+        "Java"
+      ],
+      "Hardware Skills": [
+        "Analog Circuit Design",
+        "Digital Circuit Design",
+        "Signal Processing",
+        "RF Circuit Design",
+        "Power Electronics",
+        "Electromagnetics",
+        "Control Systems",
+        "Instrumentation",
+        "Microcontroller Programming",
+        "PCB Design"
+      ],
+      "Tools": [
+        "AutoCAD",
+        "SolidWorks",
+        "ANSYS",
+        "LabVIEW",
+        "Revit",
+        "Creo Parametric",
+        "Fusion 360",
+        "Arduino IDE",
+        "Siemens NX"
+      ],
+      "Specializations": [
+        "Power Systems",
+        "Electronics and Telecommunication",
+        "Control Systems",
+        "Renewable Energy",
+        "Biomedical Engineering",
+        "RF and Microwave Engineering",
+        "Electromagnetic Compatibility"
+      ]
+    }
+  }
