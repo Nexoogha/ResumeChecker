@@ -55,7 +55,9 @@
         "Docker",
         "Jenkins",
         "Postman",
-        "npm"
+        "npm",
+        "MongoDB",
+        "AWS"
       ],
       "Other Skills": [
         "Data Structures",
@@ -67,7 +69,8 @@
         "Artificial Intelligence",
         "Operating Systems",
         "Network Security",
-        "Cloud Computing"
+        "Cloud Computing",
+        "Cybersecurity"
       ]
     },
 
