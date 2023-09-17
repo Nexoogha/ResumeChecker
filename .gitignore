@@ -6,6 +6,9 @@ __pycache__/
 # Confidential JSON
 config.json
 
+# Downloaded PDF files
+metadata/
+
 # C extensions
 *.so
 
