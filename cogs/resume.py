@@ -1,7 +1,7 @@
 """
 Contains the ResumeCog class.
 
-author: Omer Ahmed (omerahmed05), Muhammad Nabil (myn55), Jonathan Woodbury (jonathanw22)
+author: Omer Ahmed (omerahmed05), Muhammad Nabil (myn55), Jonathan Woodbury (jonathanw22), Kishore (kishore09)
 version: 09/16/2023
 """
 
