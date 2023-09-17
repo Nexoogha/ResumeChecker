@@ -5,11 +5,15 @@ author: Omer Ahmed (omerahmed05), Jonathan Woodbury (jonathanw22), Muhammad Nabi
 version: 09/16/2023
 """
 
-import discord
+import discord, nltk
 from discord.commands import slash_command
+from nltk.corpus import stopwords
 from .base_cog import CCog
 from pypdf import PdfReader
 from datetime import datetime
+
+def extract_key_terms(text : str):
+    tokens = nltk.word_tokenize()
 
 class ResumeCog(CCog):
     """

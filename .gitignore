@@ -13,6 +13,7 @@ metadata.pdf
 *.so
 
 # Distribution / packaging
+testing.py
 .Python
 build/
 develop-eggs/

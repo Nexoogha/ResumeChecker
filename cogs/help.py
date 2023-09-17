@@ -22,22 +22,20 @@ class HelpCog(CCog):
         """
         Sends an embed containing every caterogry and command registered in the bot.
         """
-        helpEmbed = discord.Embed(title="Resume Checker Help Menu", color=discord.Color.from_rgb(255, 255, 255))
+        help_embed = discord.Embed(title="Resume Checker Help Menu", color=discord.Color.from_rgb(255, 255, 255))
 
-        cogList = ctx.bot.cogs
-        categoryNames = [x[0:len(x)-3] for x in cogList.keys()]
-        commandList = ctx.bot.application_commands
-        commandNames = [x.name for x in commandList]
+        command_list = ctx.bot.application_commands
+        command_names = [x.name for x in command_list]
 
         # No argument passed, list commands
         if not arg:
-            helpEmbed.add_field(
+            help_embed.add_field(
                 name="List of commands:",
-                value=', '.join(commandNames),
+                value=', '.join(command_names),
                 inline=False
             )
 
-            helpEmbed.add_field(
+            help_embed.add_field(
                 name="Extra",
                 value="Use `/help <command name>` to get more information about a command.",
                 inline=False
@@ -45,8 +43,8 @@ class HelpCog(CCog):
         
         # Argument passed, find command and display info
         else:
-            if arg in commandNames:
-                helpEmbed.add_field(
+            if arg in command_names:
+                help_embed.add_field(
                     name=arg,
                     value=ctx.bot.get_command(arg).description
                 )
@@ -54,4 +52,4 @@ class HelpCog(CCog):
                 await ctx.respond(content=f"Could not find {arg}", ephemeral=True)
                 return
 
-        await ctx.respond(embed=helpEmbed)
+        await ctx.respond(embed=help_embed)
