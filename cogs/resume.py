@@ -5,7 +5,7 @@ author: Omer Ahmed (omerahmed05), Jonathan Woodbury (jonathanw22), Muhammad Nabi
 version: 09/16/2023
 """
 
-import discord, nltk
+import discord, nltk, json
 from discord.commands import slash_command
 from nltk.corpus import stopwords
 from .base_cog import CCog
