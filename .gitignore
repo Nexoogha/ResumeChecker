@@ -9,6 +9,9 @@ config.json
 # Downloaded PDF files
 metadata.pdf
 
+# Notes
+notes.md
+
 # C extensions
 *.so
 
