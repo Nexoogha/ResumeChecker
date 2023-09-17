@@ -7,7 +7,7 @@ __pycache__/
 config.json
 
 # Downloaded PDF files
-metadata/
+metadata.pdf
 
 # C extensions
 *.so
